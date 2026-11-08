@@ -1,0 +1,11 @@
+@baseurl = http://localhost:5137
+
+###
+POST {{baseurl}}/check-parser?BankName=AcmeBank
+Content-Type: application/json
+
+{
+    "_timestamp": "2024-06-19T12:00:00Z",
+    "_bankName": "AcmeBank",
+    "_data":"126,50//202506159000001//20250615"
+}
